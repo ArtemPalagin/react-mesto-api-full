@@ -31,16 +31,19 @@ module.exports.deleteCard = (req, res, next) => {
       if (`${req.user._id}` !== `${card.owner}`) {
         throw new ForbiddenError('Чужую карточку удалять нельзя');
       }
+
+      return Card.findByIdAndRemove(req.params.cardId)
+        .then((removedCard) => res.send(removedCard))
+        .catch((err) => {
+          throw err;
+        });
     })
     .catch((err) => {
       if (err.name === 'CastError') {
         throw new RequestError('Невалидный id');
       }
-    }).catch(next);
-
-  Card.findByIdAndRemove(req.params.cardId).then((card) => res.send(card)).catch((err) => {
-    throw err;
-  })
+      throw err;
+    })
     .catch(next);
 };
 module.exports.likeCard = (req, res, next) => {

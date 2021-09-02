@@ -147,7 +147,7 @@ class App extends React.Component {
     }
     handleCardDelete = (card) => {
         api.deliteCard(card._id).then(
-            () => {
+            (card) => {
                 const newCards = this.state.cards.filter((c) => c._id === card._id ? false : true);
                 debugger
                 this.setState({ cards: newCards })
