@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint .",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "deploy": "\"c:\\path\\to\\putty\\directory\\pscp.exe\" -i \"c:\\Users\\79030\\.ssh\\p.ppk\" -r ./* artem_plg@84.201.156.226:/home/artem_plg/express-mesto"
   },
   "keywords": [],
