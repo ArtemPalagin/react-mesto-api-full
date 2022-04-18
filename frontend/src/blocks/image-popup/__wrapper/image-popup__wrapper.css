@@ -1,6 +1,0 @@
-.image-popup__wrapper{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    /* max-width: calc(100% - 96px); */
-}
