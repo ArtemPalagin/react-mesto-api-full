@@ -32,7 +32,7 @@ app.get('/crash-test', () => {
 const allowedCors = [
   'https://praktikum.tk',
   'http://praktikum.tk',
-  'https://plg.mesto.students.nomoredomains.club',
+  'https://blooming-cliffs-86519.herokuapp.com',
 ];
 
 app.use((req, res, next) => {
