@@ -90,7 +90,7 @@ export class Api {
     }
 }
 const api = new Api({
-    baseUrl: "//api.plg.mesto.students.nomoredomains.rocks",
+    baseUrl: "//secret-springs-16852.herokuapp.com",
     contentType: "application/json",
   });
 //   https://mesto.nomoreparties.co/v1/cohort-24

@@ -1,4 +1,4 @@
-export const BASE_URL = '//api.plg.mesto.students.nomoredomains.rocks';
+export const BASE_URL = '//secret-springs-16852.herokuapp.com';
 
 export const register = (password, email) => {
   return fetch(`${BASE_URL}/signup`, {
