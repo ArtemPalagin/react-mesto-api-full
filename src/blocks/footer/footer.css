@@ -1,11 +1,12 @@
 .footer{
     width: auto;
+    margin-top: auto;
 }
 @media screen and (max-width: 880px){
     .footer{
         margin-right: 19px;
         margin-left: 19px;
-        margin-top: 48px;
+        padding-top: 48px;
         padding-bottom: 36px;
     }
 }
@@ -13,7 +14,7 @@
     .footer{
         margin-right: 0;
         margin-left: 0;
-        margin-top: 67px;
+        padding-top: 67px;
         padding-bottom: 60px;
     }
 }
