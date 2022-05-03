@@ -4,4 +4,4 @@
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
 IP: 84.201.156.226
-Ссылка: https://plg.mesto.students.nomoredomains.club
+Ссылка: https://blooming-cliffs-86519.herokuapp.com
